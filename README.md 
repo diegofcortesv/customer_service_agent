@@ -1,0 +1,45 @@
+**Trabajo Fin de Máster - Máster Universitario en Big Data y Ciencia de Datos**  
+**Universidad Internacional de Valencia (VIU)**
+
+**Autor**: Diego Fernando Cortes Villa  
+**Tutor**: Gustavo Martín Bouso  
+**Fecha**: 2025
+
+## 📋 Descripción
+
+Este proyecto implementa una arquitectura de agentes autónomos con IA generativa que interactúan entre ellos para proporcionar servicio al cliente personalizado y eficiente. El sistema utiliza Google Agent Development Kit (ADK) para crear agentes especializados que trabajan en paralelo.
+
+## 🏗️ Arquitectura del Sistema
+
+### Agentes Paralelos (Análisis Simultáneo)
+- **Context Analyzer Agent**: Analiza historial y contexto del cliente
+- **Sentiment Agent**: Evalúa sentimiento y urgencia del cliente  
+- **Knowledge Agent**: Busca soluciones en base de conocimientos
+- **Priority Agent**: Calcula prioridad y determina routing
+
+### Síntesis Secuencial
+- **Response Synthesizer**: Combina todos los análisis en una respuesta coherente
+
+## ✨ Beneficios Demostrados
+
+- **Eficiencia**: Análisis simultáneo reduce tiempo de respuesta
+- **Personalización**: Contexto del cliente informa todas las decisiones
+- **Coherencia**: Estado compartido preserva contexto entre agentes
+- **Priorización**: Evaluación automática para routing inteligente
+
+##  Tecnologías Utilizadas
+
+- **Framework**: Google Agent Development Kit (ADK)
+- **Modelo de IA**: Gemini 2.0 Flash
+- **Lenguaje**: Python 3.12
+- **Arquitectura**: Agentes Paralelos + Síntesis Secuencial
+
+##  Instalación y Uso
+
+### Prerrequisitos
+- Python 3.9 o superior
+- Cuenta en Google AI Studio
+- Git
+
+### Instalación
+```bash
