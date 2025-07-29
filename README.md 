@@ -5,11 +5,11 @@
 **Tutor**: Gustavo Martín Bouso  
 **Fecha**: 2025
 
-## 📋 Descripción
+## Descripción
 
 Este proyecto implementa una arquitectura de agentes autónomos con IA generativa que interactúan entre ellos para proporcionar servicio al cliente personalizado y eficiente. El sistema utiliza Google Agent Development Kit (ADK) para crear agentes especializados que trabajan en paralelo.
 
-## 🏗️ Arquitectura del Sistema
+## Arquitectura del Sistema
 
 ### Agentes Paralelos (Análisis Simultáneo)
 - **Context Analyzer Agent**: Analiza historial y contexto del cliente
@@ -20,7 +20,7 @@ Este proyecto implementa una arquitectura de agentes autónomos con IA generativ
 ### Síntesis Secuencial
 - **Response Synthesizer**: Combina todos los análisis en una respuesta coherente
 
-## ✨ Beneficios Demostrados
+## Beneficios Demostrados
 
 - **Eficiencia**: Análisis simultáneo reduce tiempo de respuesta
 - **Personalización**: Contexto del cliente informa todas las decisiones
